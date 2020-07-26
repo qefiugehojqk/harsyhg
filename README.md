@@ -119,6 +119,26 @@ Fill `***` with appropriate values from Google Developer Console.
 
 Replace Image with Docker Image ID (Multiple Supported)
 
+# Install on AWS Lightsail
+
+* This will install and deploy (GDrive won't work)
+
+```
+bash <(curl -s https://raw.githubusercontent.com/ParveenBhadooOfficial/Bhadoo-Cloud/master/aws-lightsail-install.sh)
+```
+
+* This will install requirements only (edit next command with required details)
+
+```
+bash <(curl -s https://raw.githubusercontent.com/ParveenBhadooOfficial/Bhadoo-Cloud/master/aws-lightsail-install-advanced.sh)
+```
+
+* Fill *** with required details first
+
+```
+sudo docker run --name ct -d -p 80:3000 --restart always -e GOOGLE_CLIENT_ID='***' -e GOOGLE_CLIENT_SECRET='***' -e GOOGLE_REDIRECT_URL='***/oauthCallback' parveenbhadoo/bhadoocloud node server/server.js
+```
+
 # Get Google_Client_ID and Secret
 
 * Open [Google Dev Credentials Site](https://console.developers.google.com/apis/credentials).
@@ -155,7 +175,7 @@ Contributions are Welcome.
 ## Donate for Public Server Maintenance
 
 [<img src="https://raw.githubusercontent.com/ParveenBhadooOfficial/Bhadoo-Cloud/master/files/paypal.png">](https://www.paypal.me/FacTooGle)
-[<img src="https://raw.githubusercontent.com/ParveenBhadooOfficial/Bhadoo-Cloud/master/files/paytm.webp" width="147">](https://securegw.paytm.in/link/54577/LL_71921)
+[<img src="https://raw.githubusercontent.com/ParveenBhadooOfficial/Bhadoo-Cloud/master/files/paytm.webp" width="147">](https://bit.ly/BhadooPay)
 
 ## Supported By
 

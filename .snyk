@@ -1,18 +1,32 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.0
+
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
-  'npm:debug:20170905':
-    - socket.io > socket.io-adapter > socket.io-parser > debug:
-        patched: '2020-01-22T07:32:51.419Z'
-  'npm:minimatch:20160620':
-    - gulp > vinyl-fs > glob-stream > minimatch:
-        patched: '2020-01-22T07:32:51.419Z'
-    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
-        patched: '2020-01-22T07:32:51.419Z'
-    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
-        patched: '2020-01-22T07:32:51.419Z'
-  'npm:ms:20170412':
-    - socket.io > socket.io-adapter > socket.io-parser > debug > ms:
-        patched: '2020-01-22T07:32:51.419Z'
+  SNYK-JS-LODASH-567746:
+    - archiver > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+    - unblocker > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+    - archiver > async > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+    - unblocker > async > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+    - archiver > zip-stream > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+    - cloudcmd > table > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+    - googleapis > async > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+    - scrape-it > cheerio > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+    - scrape-it > cheerio-req > cheerio > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+    - googleapis > google-auth-library > request > form-data > async > lodash:
+        patched: '2020-05-01T07:34:21.158Z'
+
